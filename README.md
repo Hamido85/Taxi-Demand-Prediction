@@ -1,5 +1,6 @@
-
 # Taxi Demand Prediction
+
+![AWS S3 Bucket](/Images/taxi.jpg)
 
 
 * [1. Introduction](#1-Introduction)
@@ -49,7 +50,7 @@ A taxi demand forecasting system was developed for Manhattan city that uses a co
 
 * Create New S3 Bucket and upload the taxi data inside that Bucket
 
-![AWS S3 Bucket](/Images/S3_Bucket)
+![AWS S3 Bucket](/Images/S3_Bucket.png)
 ![AWS S3 Bucket](/Images/taxi_data_folder.png)
 
 * Create Amazon EMR cluster
