@@ -66,4 +66,7 @@ Cluster Nodes and Instances:
 
 * Open Jupyter notebook using `pyspark kernel` 
 To view the preprocessing stage Spark Notebooks, open the following:
-*([Preprocess_2020](/Spark_preprocess_notebooks/Spark_preprocess_2020.ipynb))*.
+
+* (For 2020 Taxi data preprocessing open[Preprocess_2020](/Spark_preprocess_notebooks/Spark_preprocess_2020.ipynb))*.
+* (For 2021 Taxi data preprocessing open[Preprocess_2021](/Spark_preprocess_notebooks/Spark_preprocess_2021.ipynb))*.
+* (For 2022 Taxi data preprocessing open[Preprocess_2022](/Spark_preprocess_notebooks/Spark_preprocess_2022.ipynb))*.
