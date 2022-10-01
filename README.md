@@ -1,3 +1,4 @@
+
 # Taxi Demand Prediction
 
 ![AWS S3 Bucket](/Images/taxi.jpg)
@@ -48,17 +49,21 @@ A taxi demand forecasting system was developed for Manhattan city that uses a co
 # 4-Methodology
 ## 4.1 Data Preprocessing
 
-* Create New S3 Bucket and upload the taxi data inside that Bucket
+* Create New S3 Bucket and upload the taxi data inside that Bucket folders
+* Create the output folder which will contain the transformed data.
 
 ![AWS S3 Bucket](/Images/S3_Bucket.png)
 ![AWS S3 Bucket](/Images/taxi_data_folder.png)
 
 * Create Amazon EMR cluster
 The following Software configuration was chosen in this cluster
+
 ![AWS S3 Bucket](/Images/Spark_cluster.png)
 
 Cluster Nodes and Instances: 
 - 1 Master instance `m5.xlarge`
 - 3 core instance `m5.xlarge`
 
-* Open Jupyter notebook using `pyspark kernel`
+* Open Jupyter notebook using `pyspark kernel` 
+To view the preprocessing stage Spark Notebooks, open the following:
+*([Preprocess_2020](https://github.com/Hamido85/Taxi-Demand-Prediction/Spark_preprocess_notebooks/Spark_preprocess_2020.ipynb))*.
