@@ -70,3 +70,7 @@ To view the preprocessing stage Spark Notebooks, open the following:
 * (For 2020 Taxi data preprocessing open[Preprocess_2020](/Spark_preprocess_notebooks/Spark_preprocess_2020.ipynb))*.
 * (For 2021 Taxi data preprocessing open[Preprocess_2021](/Spark_preprocess_notebooks/Spark_preprocess_2021.ipynb))*.
 * (For 2022 Taxi data preprocessing open[Preprocess_2022](/Spark_preprocess_notebooks/Spark_preprocess_2022.ipynb))*.
+
+## 4.2 Mering the aggregated taxi data with weathers and holidays
+ 
+ * In this [notebook](/Merging_taxi_weather/Merging_and_EDA.ipynb), I have merged the Taxi data with weather data and holiday. I also performed some EDA analysis.
