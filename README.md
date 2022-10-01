@@ -66,4 +66,4 @@ Cluster Nodes and Instances:
 
 * Open Jupyter notebook using `pyspark kernel` 
 To view the preprocessing stage Spark Notebooks, open the following:
-*([Preprocess_2020](https://github.com/Hamido85/Taxi-Demand-Prediction/Spark_preprocess_notebooks/Spark_preprocess_2020.ipynb))*.
+*([Preprocess_2020](/Spark_preprocess_notebooks/Spark_preprocess_2020.ipynb))*.
