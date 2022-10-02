@@ -84,4 +84,4 @@ To view the preprocessing stage Spark Notebooks, open the following:
  Below is a scatter plot to visulize the correlation between pick-up trips and temperature.
  from the chart, we can understand that taxi pick-up count increase when the temperature is moderate and it decreases when the temperature is very cold or very hot.
 
- (/Images/Trips_count_vs_temp_scatter.png)
+ ![Scatter_plot](/Images/Trips_count_vs_temp_scatter.png)
