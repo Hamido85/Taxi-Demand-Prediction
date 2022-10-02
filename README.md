@@ -142,3 +142,41 @@ below is the stacking model regression plot which shows how strong is the correl
 
 The below bar graph shows how close the predictions from the true values
 ![compare_models](/Images/prediction_vs_true.png)
+
+### 4.4.2 Multivariate time series neural network model
+In this [notebook](/Modeling/Final_DL_modeling.ipynb), I analyze various maltivariate neural models to forecast the pick-up trips in Manhattan's top 5 locations. Then choosed the best model based on evaulation metrics.
+The used models are:
+- Baseline model which is the average of pickups per zone and per hour.
+- Encoder-Decoder Model
+- CNN-LSTM Encoder Decoder Model
+
+#### 4.4.2.1 Compare metrics
+
+As we can see, CNN-LSTM-Encoder Decoder model outperformed the other models
+below is the performance metrics comparison
+
+ ![compare_models](/Images/DL_Models_metrics.png)
+
+#### 4.4.2.2 CNN-LSTM Encoder Decoder prediction_vs_true
+below is the CNN-LSTM Encoder Decoder prediction_vs_true for the top 5 locations
+
+Location ID 161
+
+ ![compare_models](/location_161_prediction_vs_true.png)
+
+ 
+Location ID 162
+
+ ![compare_models](/location_162_prediction_vs_true.png)
+
+ Location ID 186
+
+ ![compare_models](/location_186_prediction_vs_true.png)
+
+  Location ID 236
+
+ ![compare_models](/location_236_prediction_vs_true.png)
+
+   Location ID 237
+
+![compare_models](/location_237_prediction_vs_true.png)
