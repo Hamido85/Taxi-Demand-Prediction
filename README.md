@@ -80,7 +80,7 @@ To view the preprocessing stage Spark Notebooks, open the following:
  Now is time to explore the data further by creating some self-explanatory graphs.The goal is to understand how different weather conditions affect the pick-up trips.
  Also to analyze the pick-up trends over different periods of time to look for patterns.
  
-### 4.3.1 Scatter Plots
+ ### 4.3.1 Scatter Plots
  Below is a scatter plot to visualize the correlation between pick-up trips and temperature.
  from the chart, we can understand that taxi pick-up count increase when the temperature is moderate and it decreases when the temperature is very cold or very hot.
 
@@ -95,3 +95,22 @@ Below is a scatter plot to to visualize the correlation between pick-up trips an
 from the chart, we can understand that taxi pick-up count decreases when the wind speed is increasing.
 
 ![Scatter_plot](/Images/pick_trips_vs_wind.png)
+
+
+ ### 4.3.2 Pick-up trips trend line patterns over different periods of time
+
+Average weekly pickups count trend line.
+This graph shows that the average number of pickups decreases in Sunday and Monday and bit lower than the other days.
+
+![trendline](/Images/weekly_average_trend_line.png)
+
+The daily average pick-up count trend line shows the changes in the hours of the day. The peak hours are usually between 12 PM and 7 PM. Also, the lowest pick-up count is observed during the first few hours of the day.
+
+![trendline](/Images/Hourly_average_pick_trend.png)
+
+### 4.3.3 Top Manhattan zones in terms of taxi pick-up count
+
+The below treemap shows the top zones in terms of taxi pick-up count.
+We will develop Deep Neural Network model called CNN-LSTM Encoder-Decoder to forecast the pick-up trips in Manhattan's top 5 zones and develop Stacked Machine Learning model to forecast the pick-up trips in the remaining zones.
+
+![treemap](/Images/pick-up_location_count.png)
