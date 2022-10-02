@@ -162,21 +162,21 @@ below is the CNN-LSTM Encoder Decoder prediction_vs_true for the top 5 locations
 
 Location ID 161
 
- ![compare_models](/location_161_prediction_vs_true.png)
+ ![compare_models](/Images//location_161_prediction_vs_true.png)
 
  
 Location ID 162
 
- ![compare_models](/location_162_prediction_vs_true.png)
+ ![compare_models](/Images//location_162_prediction_vs_true.png)
 
  Location ID 186
 
- ![compare_models](/location_186_prediction_vs_true.png)
+ ![compare_models](/Images//location_186_prediction_vs_true.png)
 
   Location ID 236
 
- ![compare_models](/location_236_prediction_vs_true.png)
+ ![compare_models](/Images//location_236_prediction_vs_true.png)
 
    Location ID 237
 
-![compare_models](/location_237_prediction_vs_true.png)
+![compare_models](/Images//location_237_prediction_vs_true.png)
