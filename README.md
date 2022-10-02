@@ -114,3 +114,31 @@ The below treemap shows the top zones in terms of taxi pick-up count.
 We will develop Deep Neural Network model called CNN-LSTM Encoder-Decoder to forecast the pick-up trips in Manhattan's top 5 zones and develop Stacked Machine Learning model to forecast the pick-up trips in the remaining zones.
 
 ![treemap](/Images/pick-up_location_count.png)
+
+## 4.4 Modeling part
+
+The modeling part is divided into two sections, first section is to develop predictive model for 62 Manhattan's zones while the second section is to develop nueral network model for the top 5 zones as shown below
+
+![Modeling](/Images/app_arch.png)
+
+### 4.4.1 Machine learning modeling for 62 Manhattan's zones
+In this [notebook](/Modeling//Final_ML_Modeling.ipynb), I analyze various predictive models to forecast the pick-up trips. Then choosed the best model based on evaulation metrics as shown below.
+The used models are:
+- Baseline model which is the average of pickups per zone and per hour.
+- Linear Regression
+- Decision Tree Regresor
+- Random Forest Regresor
+- XGboost regresor.
+- Stacking Model. (This model combine several bagging and boosting models)
+
+#### 4.4.1.1 Compare metrics
+The following bar plot shows the best model.
+
+![compare_models](/Images/compare_models.png)
+
+As we can see, the stacking model outperform all the used model. 
+below is the stacking model regression plot which shows how strong is the correlation between the prediction values and the true values
+![compare_models](/Images/stacked_regression.png)
+
+The below bar graph shows how close the predictions from the true values
+![compare_models](/Images/prediction_vs_true.png)
