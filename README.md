@@ -74,3 +74,14 @@ To view the preprocessing stage Spark Notebooks, open the following:
 ## 4.2 Mering the aggregated taxi data with weathers and holidays
  
  * In this [notebook](/Merging_taxi_weather/Merging_and_EDA.ipynb), I have merged the Taxi data with weather data and holiday. I also performed some EDA analysis.
+ 
+## 4.3 Exploratory data analysis using Tableau
+
+ Now is time to explore the data further by creating some self-explanatory graphs.The goal is to understand how different weather conditions affect the pick-up trips.
+ Also to analyze the pick-up trends over different periods of time to look for patterns.
+ 
+### 4.3.1 Scatter Plots
+ Below is a scatter plot to visulize the correlation between pick-up trips and temperature.
+ from the chart, we can understand that taxi pick-up count increase when the temperature is moderate and it decreases when the temperature is very cold or very hot.
+
+ (/Images/Trips_count_vs_temp_scatter.png)
