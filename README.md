@@ -81,7 +81,17 @@ To view the preprocessing stage Spark Notebooks, open the following:
  Also to analyze the pick-up trends over different periods of time to look for patterns.
  
 ### 4.3.1 Scatter Plots
- Below is a scatter plot to visulize the correlation between pick-up trips and temperature.
+ Below is a scatter plot to visualize the correlation between pick-up trips and temperature.
  from the chart, we can understand that taxi pick-up count increase when the temperature is moderate and it decreases when the temperature is very cold or very hot.
 
- ![Scatter_plot](/Images/Trips_count_vs_temp_scatter.png)
+  ![Scatter_plot](/Images/Trips_count_vs_temp_scatter.png)
+
+Below is a scatter plot to to visualize the correlation between pick-up trips and rain. 
+from the chart, we can understand that taxi pick-up count increase when there is no rain and its start to decrease when there is rain. You can see how the pick-up trips drop dramatically when the rain precipitation is increasing
+
+![Scatter_plot](/Images/pick_trips_vs_rain.png)
+
+Below is a scatter plot to to visualize the correlation between pick-up trips and wind speed. 
+from the chart, we can understand that taxi pick-up count decreases when the wind speed is increasing.
+
+![Scatter_plot](/Images/pick_trips_vs_wind.png)
