@@ -43,7 +43,7 @@ App link: https://taxi-demand-prediction-363710.ew.r.appspot.com/
 * The weather data contains hourly historical weather conditions such as `Temperature`, `Precipitation`,`Snow`,`Wind Speed`,`Humidity`. [You can review the full features description from here](https://www.visualcrossing.com/resources/documentation/weather-data/weather-data-documentation/)
 
 # 3-Used_Tools
-## 3.1 AWS EMR Cluster
+## 3.1 AWS EMR Spark Cluster
 * The taxi data contains more than 54 million records that can't be analyzed and processed using traditional methods. To get the most out of this data, we need to create __Amazon Elastic MapReduce Spark cluster__ to process the data and make it ready for modeling.
 ## 3.2 Tableau
 * To analyze the transformed data and the weather data, we will be using `Tableau`.
