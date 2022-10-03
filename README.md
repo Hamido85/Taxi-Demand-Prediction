@@ -180,3 +180,43 @@ Location ID 162
    Location ID 237
 
 ![compare_models](/Images//location_237_prediction_vs_true.png)
+
+## 5- Making forecasting app using streamlit framework
+
+## 5.1-Building forecasting app
+Now after developing the necessary models, its time to develop forecasting app using the chosen models.
+we are going to use streamlit framework to build the app and then we are going to deploy the app in google clould.
+
+in this [notebook](/streamlit_app/Streamlit_forecast_app.ipynb
+) you will see the full streamlit app code. Also check the app folder which contain all the necessary files needed in this app.
+
+## 5.2-Deploying the forecasting app in google cloud
+Below is all the steps you will need to deploy the app in google cloud:
+
+Create the app folder which will contain the following:
+1- app.py ( the main python scripts –streamlit app)
+2- Create requirements.txt file which contains all the libraries used in the app.
+3- All the necessary files needed to run the app (the saved models, saved scaler,saved 24 samples, weather dataframe, and some other csv and geojson files which we used to create the map)
+4- Create [Docker file](/streamlit_app/app_folder/Dockerfile). This is important to create image of the app with all the libraries and dependencies to run the it in the cloud.
+5- Create [app.yaml file](/streamlit_app/app_folder/app.yaml). this is important to configure the used VM hardware which will host your app in the cloud.
+6- Create Google cloud account.
+7- Create New project inside google cloud.
+8- Once all the files are ready inside the app folder, then open Google Cloud SDK Shell and navigate to your app folder path.
+9- You need to set the Deploying directory path to the project you created in google clould
+  - To know what is your current directory ==> gcloud config get-value project 
+10- To set the project as the default directory for deployment
+  - gcloud config set project {project name you wanna set} 
+11- Now make sure that the default directory is the project you set in the above step
+  - gcloud config get-value project ==> this should return the name of the project you have chosen.
+12- Last step now is deploy the app
+  - gcloud app deploy
+13- You will be asked to choose region to deply the app, you might refer to this link to help you (https://googlecloudplatform.github.io/region-picker/)
+
+Note: you might need to set the deployment runtime to 1200 since the defult runtime is just 10 mins. sometimes if your deployment will take more than 10 mins it will fail to deploy.
+  - cloud_build_timeout 1200
+
+Please note that I added second page in streamlit app which contains information about the models and the evaluation metrics, the full code is available inside app_folder [app.py](/streamlit_app/app_folder/app.py).
+(check the app folder which contain all the files)[/streamlit_app/app_folder/].
+
+**Click in the image to see it in action!**  
+[![see it in action](/Images/app_picture.png)](https://youtu.be/fQa1YV3aN0U)
