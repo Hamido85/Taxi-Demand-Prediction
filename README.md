@@ -239,3 +239,8 @@ Please note that I added second page in streamlit app which contains information
 **Click in the image to see it in action!**  
 
 [![see it in action](/Images/app_picture.png)](https://youtu.be/fQa1YV3aN0U)
+
+
+## Authors
+
+- [@Hamido85](https://www.github.com/Hamido85)
