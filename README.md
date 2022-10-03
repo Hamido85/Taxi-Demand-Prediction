@@ -29,6 +29,8 @@ A taxi demand forecasting system was developed for Manhattan city that uses a co
 * _It is worth noting, The models have been trained on historical taxi trips data from 01-01-2020 up until 01-04-2022_
 
 App link: https://taxi-demand-prediction-363710.ew.r.appspot.com/
+
+**Click in the image to see it in action!**  
 [![see it in action](/Images/app_picture_view.png)](https://youtu.be/fQa1YV3aN0U)
 
 
