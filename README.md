@@ -12,6 +12,8 @@
 
 * [4. Methodology](#4-Methodology)
 
+* [4. Making forecasting app using streamlit framework](#5-Forecasting-streamlit-app)
+
 
 
 
@@ -181,7 +183,7 @@ Location ID 162
 
 ![compare_models](/Images//location_237_prediction_vs_true.png)
 
-## 5- Making forecasting app using streamlit framework
+## 5-Forecasting-streamlit-app
 
 ## 5.1-Building forecasting app
 Now after developing the necessary models, its time to develop forecasting app using the chosen models.
