@@ -28,6 +28,10 @@ A taxi demand forecasting system was developed for Manhattan city that uses a co
 
 * _It is worth noting, The models have been trained on historical taxi trips data from 01-01-2020 up until 01-04-2022_
 
+App link: https://taxi-demand-prediction-363710.ew.r.appspot.com/
+[![see it in action](/Images/app_picture.png)](https://youtu.be/fQa1YV3aN0U)
+
+
 # 2-Used_data
 ## 2.1-Downloading the datasets
 * The Taxi trips data used in this project was downloaded from [Taxi & Limousine Commission website]( https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) for the period between Jan-2020 to Apr-2022. 
