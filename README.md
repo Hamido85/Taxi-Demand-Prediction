@@ -24,7 +24,7 @@
 
 # 1-Introduction
 
-A taxi demand forecasting system was developed for Manhattan city that uses a combination of machine learning model and deep neural network model. It uses a Deep Neural Network model called **CNN-LSTM Encoder-Decoder** to forecast Manhattan's top 5 locations, while it utilizes the **Stacked Machine Learning** model to forecast the remaining locations.
+A taxi demand forecasting system was developed for Manhattan city that uses a combination of machine learning model and deep neural network model. It uses a Deep Neural Network model called **CNN-LSTM Encoder-Decoder** to forecast Manhattan's top 5 locations, while it utilizes the **Stacked Machine Learning** model to forecast the remaining locations. **We proccessed the huge data using Spark**.
 
 * _It is worth noting, The models have been trained on historical taxi trips data from 01-01-2020 up until 01-04-2022_
 
